@@ -1,0 +1,7 @@
+/* 選択済みの選択肢にマーク */
+.glink_button.checked::after{
+    content: url("./glink_check.png");
+    position: absolute;
+    top: -10px;
+    left: 90%;
+}
